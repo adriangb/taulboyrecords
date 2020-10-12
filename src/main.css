@@ -9,15 +9,12 @@ body {
   flex-direction: column;
   height: 100vh;
   justify-content: center;
-  margin-left: 50px;
-  margin-right: 50px;
 }
 /* ==================
  *  APP
  * ================== */
 .countdown {
   height: 300px;
-  width: 80%;
   display: grid;
   grid-template-columns: auto;
   grid-auto-flow: column;
