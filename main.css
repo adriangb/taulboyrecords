@@ -16,7 +16,8 @@ body {
  *  APP
  * ================== */
 .countdown {
-  width: 100%;
+  height: 300px;
+  width: 80%;
   display: grid;
   grid-template-columns: auto;
   grid-auto-flow: column;
