@@ -9,11 +9,14 @@ body {
   flex-direction: column;
   height: 100vh;
   justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 /* ==================
  *  APP
  * ================== */
 .countdown {
+  width: 100%;
   display: grid;
   grid-template-columns: auto;
   grid-auto-flow: column;
@@ -24,12 +27,12 @@ body {
   text-align: center;
 }
 h2 {
-  font-size: 8em;
-  line-height: 1;
+  font-size: 6em;
+  line-height: 0.5;
   color: white;
 }
 h3 {
-  font-size: 3em;
+  font-size: 2.25em;
   line-height: 1;
   color: gray;
 }
