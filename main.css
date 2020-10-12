@@ -1,6 +1,7 @@
 body {
   font-family: 'Sarpanch', sans-serif;
   background: black;
+  overflow: hidden; /* Hide scrollbars */
 }
 .countdown-container {
   display: flex;
