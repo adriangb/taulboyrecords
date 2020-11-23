@@ -1,0 +1,109 @@
+body {
+  font-family: 'Sarpanch', sans-serif;
+  background: black;
+  height: 100%;
+}
+footer {
+  position: relative;
+  bottom: 0;
+  right: 20px;
+  width: 100%;
+  font-family: 'Sarpanch', sans-serif;
+  color: white;
+  font-size: 1em;
+  text-align: right;
+}
+h2 {
+  display: none;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.flex-hbox {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-vbox {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  flex-direction: row;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.flex-hbox-always {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  flex-direction: row;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-vbox-always {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row {
+  width: auto;
+}
+.spacer-row {
+  display: none;
+}
+.col {
+  width: auto;
+}
+.flex-item {
+  padding: 25px;
+  width: 125px;
+  height: 125px;
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+}
+a.darken {
+  background: black;
+}
+a.darken img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  -webkit-transition: all 0.3s linear;
+     -moz-transition: all 0.3s linear;
+      -ms-transition: all 0.3s linear;
+       -o-transition: all 0.3s linear;
+          transition: all 0.3s linear;
+}
+a.darken:hover img {
+  opacity: 0.6;
+}
