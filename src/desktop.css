@@ -3,8 +3,8 @@ body {
   background: black;
   overflow: hidden; /* Hide scrollbars */
 }
-footer {
-  position: relative;
+.footer {
+  position: absolute;
   bottom: 0;
   right: 20px;
   width: 100%;
@@ -52,7 +52,7 @@ h2 {
   justify-content: center;
 }
 .flex-hbox-always {
-  height: 100%;
+  height: 70vh;
   padding: 0;
   margin: 0;
   flex-direction: row;
